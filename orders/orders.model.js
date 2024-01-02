@@ -1,4 +1,4 @@
-module.exports = [
+const orders = [
   {
     date: "05/12/2022",
     subtotal: 600,
@@ -24,3 +24,9 @@ module.exports = [
     ],
   },
 ];
+
+const getAllOrders = () => {
+  return orders;
+};
+
+module.exports = {getAllOrders}
